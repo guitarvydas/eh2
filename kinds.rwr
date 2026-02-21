@@ -1,6 +1,6 @@
 % rewrite kinds {
   Top [_group lb Diagram+ rb] = ‛\n«_group»«lb»«Diagram»«rb»’
-  Diagram [_diagram lb IDattr Cell+ rb] = ‛\n«_diagram»«lb»«IDattr»«Cell»«rb»’
+  Diagram [_diagram lb IDattr Cell+ rb] = ‛\n«_diagram»«lb»\n«IDattr»\n[«Cell»]«rb»’
   IDattr [_id _eq str] = ‛\n«_id»«_eq»«str»’
   Cell_gate [_cell lb attr+ rb] = ‛\ngate «lb»«attr»«rb»’
   Cell_rect [_cell lb attr+ rb] = ‛\nrect «lb»«attr»«rb»’
