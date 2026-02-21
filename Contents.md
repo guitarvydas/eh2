@@ -16,7 +16,8 @@
 [Reformatting Results for SWIPL](Reformatting%20Results%20for%20SWIPL.md)
 [Simpler Sanity Check](Simpler%20Sanity%20Check.md)
 [Revise rnet2swipl Rewriter](Revise%20rnet2swipl%20Rewriter.md)
-
+[Querying The Factbase](Querying%20The%20Factbase.md)
+[The Flat Factbase Option](The%20Flat%20Factbase%20Option.md)
 
 
 
