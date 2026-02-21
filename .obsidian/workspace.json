@@ -125,16 +125,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Contents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Contents"
+            }
+          },
+          {
+            "id": "ad8c110901ae7bbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "episode 2/Fix Missing Rhombus.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fix Missing Rhombus"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -296,15 +310,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "d997d2c302f59ddf",
+  "active": "ad8c110901ae7bbc",
   "lastOpenFiles": [
-    "eh-design-rules.md",
+    "#cull.rwr#",
     "Contents.md",
-    "README.md",
-    "Step 1 - Sub-Goal.md",
+    "episode 2/Fix Missing Rhombus.md",
     "Goal.md",
-    "Stage by Stage Whittling Down of Intermediate Results.md",
-    "Reading rmgeometry.rwr.md",
+    "episode 2",
+    "eh-design-rules.md",
+    "README.md",
+    "episode 1",
+    "episode 1/Step 1 - Sub-Goal.md",
+    "episode 1/Stage by Stage Whittling Down of Intermediate Results.md",
+    "episode 1/Reading rmgeometry.rwr.md",
     "temp.53898_56510.nanodsl.mjs",
     "temp.53898_56510.grammar",
     "temp.53898_56510.rewrite.mjs",
@@ -313,16 +331,14 @@
     "temp.53896_61918.nanodsl.mjs",
     "temp.53899_38693.grammar",
     "temp.53900_79487.grammar",
-    "temp.53896_61918.grammar",
-    "temp.53899_38693.rewrite.mjs",
     "pbp/dtree/README.process_json.md",
     "pbp/dtree/README.md",
     "pbp/dtree/DOCUMENTATION.md",
     "pbp/api.md",
     "pbp/pbp-lifecycle.drawio.png",
-    "Reading rmgeometry.ohm.md",
-    "helloworldpy.drawio.png",
-    "helloworldpy-no-overlay-main.drawio.png",
-    "Tool to Transmogrify the Diagram to .pbpcontainer Code (part 1).md"
+    "episode 1/Reading rmgeometry.ohm.md",
+    "episode 1/helloworldpy.drawio.png",
+    "episode 1/helloworldpy-no-overlay-main.drawio.png",
+    "episode 1/Tool to Transmogrify the Diagram to .pbpcontainer Code (part 1).md"
   ]
 }

@@ -4,14 +4,14 @@ cull {
   Cell = "cell" "{" attr+ "}"
   attr =
     | "style" "=" "\"" "edgeStyle" strtail -- edgeStyle
-    | "style" "=" "\"" "edgeLabel" strtail -- edgeLabel
-    | "style" "=" "\"" "ellipse" strtail -- ellipse
+    | "style" "=" "\"" "rhombus" strtail -- rhombus
+    | "style" "=" "\"" "rounded=1" strtail -- rect
     | "id" "=" str -- id
     | "parent" "=" str -- parent
     | "value" "=" str -- value
     | "source" "=" str -- source
     | "target" "=" str -- target
-    | name "=" str -- ignore
+    | name "=" str -- node
   name = letter alnum*
   str = "\"" strtail
   strtail = schar* "\""
