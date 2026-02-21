@@ -17,7 +17,7 @@ ${PBP}/t2t rmgeometry <$1.drawio | tee /tmp/stage1.txt|\
     ${PBP}/t2t unhtml |\
     ${PBP}/t2t kinds |\
     ${PBP}/del_blank_lines >out.mr
-    ${PBP}/t2t rnet2swipl <out.mr | ./commas.py >out.pl
+    ${PBP}/t2t rnet2swipl <out.mr >out.pl
 
 ############################
 
