@@ -1,0 +1,327 @@
+{
+  "main": {
+    "id": "1e36c2a79c4e1418",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b60ec1c30450b7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76dc3d0678a3e29a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Goal.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Goal"
+            }
+          },
+          {
+            "id": "486422883a39a0f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Step 1 - Sub-Goal.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Step 1 - Sub-Goal"
+            }
+          },
+          {
+            "id": "795fbd88bd0de6c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tool to Transmogrify the Diagram to .pbpcontainer Code (part 1).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tool to Transmogrify the Diagram to .pbpcontainer Code (part 1)"
+            }
+          },
+          {
+            "id": "b5e910f782121e02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Contents.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Contents"
+            }
+          },
+          {
+            "id": "a042b9e44051385e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading rmgeometry.ohm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reading rmgeometry.ohm"
+            }
+          },
+          {
+            "id": "27d63888e89ae2ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Reading rmgeometry.rwr.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reading rmgeometry.rwr"
+            }
+          },
+          {
+            "id": "bc1575c6b3e26d07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Contents.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Contents"
+            }
+          },
+          {
+            "id": "7f78115128bced50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Contents.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Contents"
+            }
+          },
+          {
+            "id": "d997d2c302f59ddf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2078d5041a66a0a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed15377f34c177ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99967e8b423c0051",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3686ee0b6c09d6da",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c6ad8cde68098c97",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5baef76e705f1d26",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc46d6f296c46be2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d1308ef35d7ac03e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "13d282a33362e8f0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from README"
+            }
+          },
+          {
+            "id": "f53532e106e922ed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "664a3daa66c0b28e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7d4b7a1971579811",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d997d2c302f59ddf",
+  "lastOpenFiles": [
+    "Contents.md",
+    "README.md",
+    "Step 1 - Sub-Goal.md",
+    "Goal.md",
+    "Stage by Stage Whittling Down of Intermediate Results.md",
+    "Reading rmgeometry.rwr.md",
+    "temp.53898_56510.nanodsl.mjs",
+    "temp.53898_56510.grammar",
+    "temp.53898_56510.rewrite.mjs",
+    "temp.53899_38693.nanodsl.mjs",
+    "temp.53900_79487.nanodsl.mjs",
+    "temp.53896_61918.nanodsl.mjs",
+    "temp.53899_38693.grammar",
+    "temp.53900_79487.grammar",
+    "temp.53896_61918.grammar",
+    "temp.53899_38693.rewrite.mjs",
+    "pbp/dtree/README.process_json.md",
+    "pbp/dtree/README.md",
+    "pbp/dtree/DOCUMENTATION.md",
+    "pbp/api.md",
+    "pbp/pbp-lifecycle.drawio.png",
+    "Reading rmgeometry.ohm.md",
+    "helloworldpy.drawio.png",
+    "helloworldpy-no-overlay-main.drawio.png",
+    "Tool to Transmogrify the Diagram to .pbpcontainer Code (part 1).md"
+  ]
+}

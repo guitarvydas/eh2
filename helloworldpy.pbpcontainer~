@@ -1,0 +1,13 @@
+container Hello World {
+  children: [Hello'wK0F3og9NH9Dy6XDwJbj-5, World'wK0F3og9NH9Dy6XDwJbj-1, 1→2'n8kg52j3blKjJ06txv2A-24]
+  wires: {
+    down .[] Hello'wK0F3og9NH9Dy6XDwJbj-5[]
+    down .[] World'wK0F3og9NH9Dy6XDwJbj-1[]
+    up 1→2'n8kg52j3blKjJ06txv2A-24[1] .[]
+    up 1→2'n8kg52j3blKjJ06txv2A-24[2] .[]
+    across Hello'wK0F3og9NH9Dy6XDwJbj-5[] 1→2'n8kg52j3blKjJ06txv2A-24[1]
+    across World'wK0F3og9NH9Dy6XDwJbj-1[] 1→2'n8kg52j3blKjJ06txv2A-24[2]
+    up Hello'wK0F3og9NH9Dy6XDwJbj-5[✗] .[✗]
+    up World'wK0F3og9NH9Dy6XDwJbj-1[✗] .[✗]
+  }
+}
