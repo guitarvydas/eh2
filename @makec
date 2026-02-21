@@ -15,7 +15,8 @@ ${PBP}/t2t rmgeometry <$1.drawio | tee /tmp/stage1.txt|\
     ${PBP}/t2t rmdiv |\
     ${PBP}/t2t rmspan |\
     ${PBP}/t2t unhtml |\
-    ${PBP}/t2t kinds
+    ${PBP}/t2t kinds |\
+    ${PBP}/del_blank_lines
 
 ############################
 
