@@ -1,0 +1,7 @@
+run:-
+    foreach(
+	(
+	    group(diagram(_,C)),
+	    c=Cell(_,_,_,kind="edge",_)
+	),
+	

@@ -8,48 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "76dc3d0678a3e29a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Goal.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Goal"
-            }
-          },
-          {
-            "id": "486422883a39a0f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Step 1 - Sub-Goal.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Step 1 - Sub-Goal"
-            }
-          },
-          {
-            "id": "795fbd88bd0de6c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tool to Transmogrify the Diagram to .pbpcontainer Code (part 1).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tool to Transmogrify the Diagram to .pbpcontainer Code (part 1)"
-            }
-          },
-          {
             "id": "b5e910f782121e02",
             "type": "leaf",
             "state": {
@@ -64,35 +22,7 @@
             }
           },
           {
-            "id": "a042b9e44051385e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reading rmgeometry.ohm.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reading rmgeometry.ohm"
-            }
-          },
-          {
-            "id": "27d63888e89ae2ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reading rmgeometry.rwr.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reading rmgeometry.rwr"
-            }
-          },
-          {
-            "id": "bc1575c6b3e26d07",
+            "id": "5a0eb46be6d953c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -106,7 +36,7 @@
             }
           },
           {
-            "id": "7f78115128bced50",
+            "id": "6f5349a2fbba5c6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -120,49 +50,35 @@
             }
           },
           {
-            "id": "d997d2c302f59ddf",
+            "id": "d26dc5b700c4f014",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contents.md",
+                "file": "episode 2/Revise rnet2swipl Rewriter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contents"
+              "title": "Revise rnet2swipl Rewriter"
             }
           },
           {
-            "id": "ad8c110901ae7bbc",
+            "id": "3d79aef809ef1495",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "episode 2/Fix Missing Rhombus.md",
+                "file": "episode 2/Rewrite Cells as Edges, Rects and Rhombuses.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fix Missing Rhombus"
-            }
-          },
-          {
-            "id": "b270877eee365d20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "episode 2/Rnets.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Rnets"
+              "title": "Rewrite Cells as Edges, Rects and Rhombuses"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -324,30 +240,39 @@
       "bases:Create new base": false
     }
   },
-  "active": "b270877eee365d20",
+  "active": "3d79aef809ef1495",
   "lastOpenFiles": [
-    "temp.74456_84778.nanodsl.mjs",
-    "temp.74456_84778.grammar",
-    "temp.74456_84778.rewrite.mjs",
-    "temp.74457_27681.nanodsl.mjs",
-    "temp.74457_27681.grammar",
-    "temp.74454_61659.nanodsl.mjs",
-    "temp.74457_27681.rewrite.mjs",
-    "temp.74454_61659.grammar",
-    "temp.74454_61659.rewrite.mjs",
-    "temp.74458_76629.nanodsl.mjs",
-    "temp.74459_84855.nanodsl.mjs",
+    "temp.95488_34219.nanodsl.mjs",
+    "temp.95488_34219.grammar",
+    "temp.95488_34219.rewrite.mjs",
+    "temp.95492_13582.nanodsl.mjs",
+    "temp.95492_13582.grammar",
+    "temp.95492_13582.rewrite.mjs",
+    "temp.95489_27828.nanodsl.mjs",
+    "temp.95489_27828.grammar",
+    "temp.95486_68811.nanodsl.mjs",
+    "temp.95489_27828.rewrite.mjs",
+    "temp.95486_68811.grammar",
     "pbp/dtree/README.process_json.md",
     "pbp/dtree/README.md",
     "pbp/dtree/DOCUMENTATION.md",
-    "episode 2/Rnets.md",
-    "episode 2/Fix Missing Rhombus.md",
+    "episode 2/Revise rnet2swipl Rewriter.md",
+    "episode 2/Rewrite Cells as Edges, Rects and Rhombuses.md",
     "Contents.md",
+    "episode 2/Reformatting Results for SWIPL.md",
+    "episode 2/rnet2swipl grammar Screenshot 2026-02-21 at 7.53.08 AM.png",
+    "episode 2/Simpler Sanity Check.md",
+    "episode 2/Sanity Checking the Results from Stage 5.md",
+    "episode 2/commas.md",
+    "episode 2/Loading Stage 5 Results Into SWIPL.md",
+    "episode 1/Stage by Stage Whittling Down of Intermediate Results.md",
+    "episode 2/Fix Missing Rhombus.md",
+    "episode 2/Revised Results from Stages 1 and 5.md",
+    "episode 2/Rnets.md",
     "Goal.md",
     "eh-design-rules.md",
     "README.md",
     "episode 1/Step 1 - Sub-Goal.md",
-    "episode 1/Stage by Stage Whittling Down of Intermediate Results.md",
     "episode 1/Reading rmgeometry.rwr.md",
     "pbp/api.md",
     "pbp/pbp-lifecycle.drawio.png",

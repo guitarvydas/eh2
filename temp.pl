@@ -1,0 +1,11 @@
+group(
+    diagram(
+	id="o9M2tmKP6ZUbm1JD93Ax",
+	cell(
+	    id="n8kg52j3blKjJ06txv2A-1",
+	    parent="1",
+	    kind="rhombus",
+	    value=""
+	)
+    )
+).

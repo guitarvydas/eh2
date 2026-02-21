@@ -1,18 +1,18 @@
 % rewrite kinds {
-  Top [name lb Array+ rb] = ‛«name» {«Array»}’
-  Array [name lb attr* Object+ rb] = ‛\n«name» {\n«attr»«Object»\n}’
-  attr [name eq str] = ‛ «name»«eq»«str»’
-  transitionAttr_kind [a b c d e] = ‛’
-  transitionAttr_other [a] = ‛«a»’
-  transitionCodeAttr_kind [a b c d e] = ‛’
-  transitionCodeAttr_other [a] = ‛«a»’
-  stateAttr_kind [a b c d e] = ‛’
-  stateAttr_other [a] = ‛«a»’
-  Object_transition [name lb attr+ rb] = ‛\ntransition {«attr»}’ 
-  Object_transitionCode [name lb attr+ rb] = ‛\ntransitionCode {«attr»}’ 
-  Object_state [name lb attr+ rb] = ‛\nstate {«attr»}’ 
-  name [uletter ualnum*] = ‛«uletter»«ualnum»’
-  uletter [c] = ‛«c»’
-  ualnum [c] = ‛«c»’
-  str [lq cs* rq] = ‛«lq»«cs»«rq»’
+  Top [_group lb Diagram+ rb] = ‛\n«_group»«lb»«Diagram»«rb»’
+  Diagram [_diagram lb IDattr Cell+ rb] = ‛\n«_diagram»«lb»«IDattr»«Cell»«rb»’
+  IDattr [_id _eq str] = ‛\n«_id»«_eq»«str»’
+  Cell_gate [_cell lb attr+ rb] = ‛\n«_cell»«lb»«attr»«rb»’
+  Cell_rect [_cell lb attr+ rb] = ‛\n«_cell»«lb»«attr»«rb»’
+  Cell_edge [_cell lb attr+ rb] = ‛\n«_cell»«lb»«attr»«rb»’
+  Cell_overlooked [_cell lb attr+ rb] = ‛*** «_cell»«lb»«attr»«rb» ***’
+  GateAttr_kind [_kind _eq dqL _ dqR] = ‛\n«_kind»«_eq»«dqL»«_»«dqR»’
+  GateAttr_other [attr] = ‛\n«attr»’
+  RectAttr_kind [_kind _eq dqL _rect dqR] = ‛\n«_kind»«_eq»«dqL»«_»«dqR»’
+  RectAttr_other [attr] = ‛\n«attr»’
+  EdgeAttr_kind [_kind _eq dqL _edge dqR] = ‛\n«_kind»«_eq»«dqL»«_»«dqR»’
+  EdgeAttr_other [attr] = ‛\n«attr»’
+  Attr [name _eq str] = ‛\n«name»«_eq»«str»’
+  str [dqL cs* dqR] = ‛«dqL»«cs»«dqR»’
+  name [letter alnum*] = ‛«letter»«alnum»’
 }

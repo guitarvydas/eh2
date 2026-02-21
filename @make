@@ -9,7 +9,6 @@ export SHELLOPTS
 # skip this step if PBP_ROOT is not set
 # DO NOT define PBP_ROOT under normal circustances (this is a kludge useb during pbp-dev development only)
 if [ -d "${PBP_ROOT}" ]; then
-    echo "refreshing ./pbp"
     "${PBP_ROOT}/import-minimal.bash"
 fi
 

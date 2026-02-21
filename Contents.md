@@ -8,3 +8,15 @@
 
 # Episode 2
 [Fix Missing Rhombus](Fix%20Missing%20Rhombus.md)
+[Rnets](Rnets.md)
+[Revised Results from Stages 1 and 5](Revised%20Results%20from%20Stages%201%20and%205.md)
+[Sanity Checking the Results from Stage 5](Sanity%20Checking%20the%20Results%20from%20Stage%205.md)
+[Loading Stage 5 Results Into SWIPL](Loading%20Stage%205%20Results%20Into%20SWIPL.md)
+[commas](commas.md)
+[Reformatting Results for SWIPL](Reformatting%20Results%20for%20SWIPL.md)
+[Simpler Sanity Check](Simpler%20Sanity%20Check.md)
+[Revise rnet2swipl Rewriter](Revise%20rnet2swipl%20Rewriter.md)
+
+
+
+

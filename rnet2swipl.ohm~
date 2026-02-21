@@ -1,0 +1,7 @@
+rnet2swipl {
+  Top = "group" "{" Diagram+ "}"
+  Diagram = "diagram" "{" IDattr Cell+ "}"
+  IDattr = "id" "=" str
+  Cell = "cell" "{" Attr+ "}"
+  str = "\"" (~"\"" any)* "\""
+}
