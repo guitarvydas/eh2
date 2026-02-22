@@ -1,0 +1,15 @@
+              ...
+	    rect {
+		id="n8kg52j3blKjJ06txv2A-24"
+		parent="1"
+		value="1→2"}
+	    rect {
+		id="n8kg52j3blKjJ06txv2A-25"
+		parent="n8kg52j3blKjJ06txv2A-24"
+		value="2"}
+              ...
+            rect {
+		id="n8kg52j3blKjJ06txv2A-28"
+		parent="n8kg52j3blKjJ06txv2A-24"
+		value="2"}
+              ...

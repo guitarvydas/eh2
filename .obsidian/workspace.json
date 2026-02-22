@@ -97,12 +97,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "episode 2/The Flat Factbase Option.md",
+                "file": "episode 2/Revise rnet2swipl Rewriter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The Flat Factbase Option"
+              "title": "Revise rnet2swipl Rewriter"
             }
           }
         ],
@@ -270,23 +270,24 @@
   },
   "active": "d846c4d96bc51d3f",
   "lastOpenFiles": [
-    "temp.18361_93401.nanodsl.mjs",
-    "temp.18361_93401.grammar",
-    "temp.18361_93401.rewrite.mjs",
-    "temp.18135_75217.nanodsl.mjs",
-    "temp.18135_75217.grammar",
-    "temp.18135_75217.rewrite.mjs",
-    "temp.18137_82423.nanodsl.mjs",
-    "temp.18137_82423.grammar",
-    "temp.18139_62779.nanodsl.mjs",
-    "temp.18137_82423.rewrite.mjs",
-    "temp.18139_62779.grammar",
+    "id_first.py",
+    "Contents.md",
+    "episode 2/The Flat Factbase Option.md",
+    "#ports.pl#",
+    "junk.mr",
+    "episode 2/helloworldpy Screenshot 2026-02-22 at 6.42.04 AM.png",
+    "ports.pl~",
+    "ports.pl",
+    "episode 2/Querying The Factbase.md",
+    "temp.19032_30006.nanodsl.mjs",
+    "temp.19032_30006.grammar",
+    "temp.19032_30006.rewrite.mjs",
+    "temp.18801_12115.nanodsl.mjs",
+    "temp.18799_93577.nanodsl.mjs",
+    "temp.18801_12115.grammar",
     "pbp/dtree/README.process_json.md",
     "pbp/dtree/README.md",
     "pbp/dtree/DOCUMENTATION.md",
-    "Contents.md",
-    "episode 2/The Flat Factbase Option.md",
-    "episode 2/Querying The Factbase.md",
     "episode 2/Rewrite Cells as Edges, Rects and Rhombuses.md",
     "episode 2/Revise rnet2swipl Rewriter.md",
     "episode 2/Reformatting Results for SWIPL.md",

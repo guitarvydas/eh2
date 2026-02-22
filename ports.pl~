@@ -1,0 +1,3 @@
+port(P):-
+    rect(D,P),
+    rect(D,P,_).
