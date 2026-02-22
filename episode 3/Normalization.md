@@ -1,3 +1,12 @@
+While trying to debug this issue, it occurs to me that the basic problem is that the order of attributes is not guaranteed.
+
+If I could guarantee that the “id” attribute is seen before any other attribute is parsed, then a lot of code and confusion would evaporate.
+
+So, back to the beginning. Claude created a short Python program that inhales the ‘.drawio’ file and exhales it in normalized form, with ‘id’ as the first attribute in all cells.
+
+Let’s try it and have a look a the result…
+
+```
 group{
     diagram{
         id="o9M2tmKP6ZUbm1JD93Ax"
@@ -106,3 +115,8 @@ group{
                 parent="1"
                 source="wK0F3og9NH9Dy6XDwJbj-8"
                 target="wK0F3og9NH9Dy6XDwJbj-13"}]}}
+```
+
+It looks like `id` is always first.
+
+Now, I have to revamp the grammar to allow the rewriter to take advantage of this fact.

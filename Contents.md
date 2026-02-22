@@ -17,7 +17,9 @@
 [Simpler Sanity Check](Simpler%20Sanity%20Check.md)
 [Revise rnet2swipl Rewriter](Revise%20rnet2swipl%20Rewriter.md)
 [Querying The Factbase](Querying%20The%20Factbase.md)
-[The Flat Factbase Option](The%20Flat%20Factbase%20Option.md)
 
+# Episode 3
+[The Flat Factbase Option](The%20Flat%20Factbase%20Option.md)
+[Normalization](Normalization.md)
 
 

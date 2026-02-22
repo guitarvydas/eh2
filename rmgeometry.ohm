@@ -1,6 +1,7 @@
 rmgeometry {
   Main = Header Diagram+ "</mxfile>"
-  Header = "<mxfile" attribute+ ">"
+  Header = XMLheader? "<mxfile" attribute+ ">"
+  XMLheader = "<?xml" attribute+ "?>"
   Diagram = "<diagram" attribute+ ">" GraphModel+ "</diagram>"
   GraphModel = "<mxGraphModel" attribute+ ">" Root "</mxGraphModel>"
   Root = "<root>" Cell+ "</root>"
@@ -16,5 +17,5 @@ rmgeometry {
 
   attribute = name "=" str
   name = letter alnum*
-  str = "\"" (~"\"" any)* "\""
+  str = ("\"" | "'") (~"\"" ~"'" any)* ("\"" | "'")
 }
