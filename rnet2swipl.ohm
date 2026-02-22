@@ -1,12 +1,12 @@
 rnet2swipl {
   Top = "group" "{" Diagram+ "}"
-  Diagram = "diagram" "{" Cellid "[" Cell+ "]" "}"
-  Cell = 
-   | "gate" "{" Cellid Attr+ "}" -- gate
-   | "rect" "{" Cellid Attr+ "}" -- rect
-   | "edge" "{" Cellid Attr+ "}" -- edge
+  Diagram = "diagram" "{" Cellid "[" Cells "]" "}"
+  Cells = 
+   | "gate" "{" Cellid Attr "}" Cells? -- gate
+   | "rect" "{" Cellid Attr "}" Cells? -- rect
+   | "edge" "{" Cellid Attr "}" Cells? -- edge
   Cellid= "id" "=" str
-  Attr = name "=" str
+  Attr = name "=" str Attr?
   str = "\"" (~"\"" any)* "\""
   name = letter alnum*
 }

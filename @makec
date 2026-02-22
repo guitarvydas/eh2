@@ -12,11 +12,11 @@
 
 ./id_first.py <$1.drawio |\
     ${PBP}/t2t rmgeometry | tee /tmp/stage1.txt|\
-    ${PBP}/t2t cull |\
-    ${PBP}/t2t rmdiv |\
-    ${PBP}/t2t rmspan |\
-    ${PBP}/t2t unhtml |\
-    ${PBP}/t2t kinds |\
+    ${PBP}/t2t cull | tee /tmp/stage2.txt|\
+    ${PBP}/t2t rmdiv | tee /tmp/stage3.txt|\
+    ${PBP}/t2t rmspan | tee /tmp/stage4.txt|\
+    ${PBP}/t2t unhtml | tee /tmp/stage5.txt|\
+    ${PBP}/t2t kinds | tee /tmp/stage6.txt|\
     ${PBP}/del_blank_lines >out.mr
     ${PBP}/t2t rnet2swipl <out.mr | sort >out.pl
 
