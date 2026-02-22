@@ -16,7 +16,11 @@ parentOf(D,P,R):-
 %% parentOf(D,P,LongR):-
 %%     synonym(LongR,R),
 %%     parent(D,P,R),!.
-    
+
+parent(1,5,"xyz").
+parent(1,5,4).
+parent(1,"abc","xyz").
+parent(1,"abc",4).
 
 
 %% parentOf(D,LongPID,LongRID):-

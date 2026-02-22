@@ -12,8 +12,3 @@ function decodeHTML(s) {
     return s;
 }
 
-let id = 0;
-function createid () {
-    id += 1;
-    return `${id}`;
-}

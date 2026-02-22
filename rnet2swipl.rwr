@@ -2,31 +2,26 @@
 % parameter cellid
 % rewrite rnet2swipl {
   Top [_group lb Diagram+ rb] = ‛«Diagram»’
-  Diagram [_diagram lb IDattr lb2 Cell+ rb2 rb] =
-    ⎡ diagramid=‛⎨createid⎬’
-      ‛synonym(«IDattr»,⟪diagramid⟫).\ndiagram(⟪diagramid⟫).«Cell»’
+  Diagram [_diagram lb id lb2 Cell+ rb2 rb] =
+    ⎡ diagramid=‛«id»’
+      ‛\ndiagram(⟪diagramid⟫).«Cell»’
     ⎦
 
-  IDattr [_id eq str] =
-    ⎡ diagramid=‛«str»’
-      ‛«str»’
-    ⎦
-
-  Cell_gate [_cell lb Attr+ rb] =
-    ⎡ cellid=‛⎨createid⎬’
+  Cell_gate [_cell lb id Attr+ rb] =
+    ⎡ cellid=‛«id»’
       ‛\ngate(⟪diagramid⟫,⟪cellid⟫).«Attr»’
     ⎦
-  Cell_rect [_cell lb Attr+ rb] = 
-    ⎡ cellid=‛⎨createid⎬’
+  Cell_rect [_cell lb id Attr+ rb] = 
+    ⎡ cellid=‛id’
       ‛\nrect(⟪diagramid⟫,⟪cellid⟫).«Attr»’
     ⎦
-  Cell_edge [_cell lb Attr+ rb] =
-    ⎡ cellid=‛⎨createid⎬’
+  Cell_edge [_cell lb id Attr+ rb] =
+    ⎡ cellid=‛«id»’
       ‛\nedge(⟪diagramid⟫,⟪cellid⟫).«Attr»’
     ⎦
 
-  Attr_cellid [_id eq str] = ‛\nsynonym(«str»,⟪cellid⟫).’
-  Attr_other [name eq str] = ‛\n«name»(⟪diagramid⟫,⟪cellid⟫,«str»).’
+  Cellid [_id eq str] = ‛\nsynonym(«str»,⟪cellid⟫).’
+  Attr [name eq str] = ‛\n«name»(⟪diagramid⟫,⟪cellid⟫,«str»).’
   str [dqL cs* dqR] = ‛«dqL»«cs»«dqR»’
   name [letter alnum*] = ‛«letter»«alnum»’
 }
