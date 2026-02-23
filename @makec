@@ -17,8 +17,9 @@
     ${PBP}/t2t rmspan | tee /tmp/stage4.txt|\
     ${PBP}/t2t unhtml | tee /tmp/stage5.txt|\
     ${PBP}/t2t kinds | tee /tmp/stage6.txt|\
-    ${PBP}/del_blank_lines >out.mr
-    ${PBP}/t2t rnet2swipl <out.mr | sort >out.pl
+    ${PBP}/del_blank_lines | tee factbase.mr |\
+    ${PBP}/t2t rnet2swipl | sort >factbase.pl
+./fb2rnet helloworld factbase.pl
 
 ############################
 

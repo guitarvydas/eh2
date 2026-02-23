@@ -1,0 +1,20 @@
+container Hello World {
+  children: [Hello$wK0F3og9NH9Dy6XDwJbj-5, World'y, 1→2'z]
+  wires: {
+    down .❲❳ Hello$wK0F3og9NH9Dy6XDwJbj-5❲❳
+    down .❲❳ World'y❲❳
+    up 1→2'z❲1❳ .❲❳
+    up 1→2'z❲2❳ .❲❳
+    across Hello$wK0F3og9NH9Dy6XDwJbj-5❲❳ 1→2'z❲1❳
+    across World'y❲❳ 1→2'z❲2❳
+    up Hello$wK0F3og9NH9Dy6XDwJbj-5❲✗❳ .❲✗❳
+    up World'y❲✗❳ .❲✗❳
+  }
+}
+
+where x == wK0F3og9NH9Dy6XDwJbj-5
+where y == wK0F3og9NH9Dy6XDwJbj-1
+where z == n8kg52j3blKjJ06txv2A-24
+
+❲template❳❲uniq❳❲port name❳
+.❲gate name❳

@@ -1,0 +1,7 @@
+portOf(R,P):-
+    rect(D,P),
+    rect(D,R),
+    parent(D,P,R).
+
+part(Name):-
+    rect(D,R),parent(D,R,"1"),value(D,R,Name).
