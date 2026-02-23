@@ -4,7 +4,7 @@ If I could guarantee that the “id” attribute is seen before any other attrib
 
 So, back to the beginning. Claude created a short Python program that inhales the ‘.drawio’ file and exhales it in normalized form, with ‘id’ as the first attribute in all cells.
 
-Let’s try it and have a look a the result…
+Let’s try it and have a look at the result…
 
 ```
 group{
