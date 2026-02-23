@@ -19,7 +19,15 @@ This creates `helloworldpy.rnet` from `helloworld.drawio`.
 
 The first part of this series is done.
 
-t2t, swipl, shell commands, @make, @makec
+I developed a way to use multiple languages in this project. 
+
+I use /bin/bash scripts to create the build. @make contains boilerplate and calls @makec to perform custom build steps for this project.
+
+The goal is to allow building a project with @make and @makec, while allowing it to be used as a "black box" in other projects. Hence, the separations into @make and @makec and, hence, the `if` stuff at the beginning of @make.
+
+This project uses `t2t`, `swipl` (a modern, free Prolog), OhmJS and several shell commands.
+
+I have included the necessary code for `t2t` in `./pbp`, so (theoretically) it should just work after git cloning the project.
 
 Now, I move on to compiling `helloworldpy.rnet` into some kind of file (JSON?) that can be pulled into a loader.
 
