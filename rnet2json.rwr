@@ -1,0 +1,16 @@
+% rewrite rnet2json {
+  Main [_container lb Children Wires rb] = ‛"{" ??? : { «Children»«Wires» \n}\n}’
+  Children [_children lb Part+ rb] = ‛"children" : [\n«Part»\n],’
+  Wires [_wires lb Wire+ rb] =  ‛"wires" : [\n«Wire»\n]
+
+  Part [Template ID] = ‛{"template" : «Template», "id" : «ID»},’
+  Template [s] = ‛«s»’
+  ID [s] = ‛«s»’
+  BracketedString [lb cs* rb] = ‛"«cs»"’
+  Wire [_direction sender receiver]] = ‛{"dir" : "«_direction»", "sender" : «sender», "receiver" : «receiver»},’
+  Port [s] = ‛«s»’
+  Sender [Part Port] = ‛"id" : «Part», "port" : «Port»’
+  Receiver [Part Port] = ‛"id" : «Part», "port" : «Port»’
+  SelfSender [_dot Port] = ‛"id" : ".", "port" : «Port»’
+  SelfReceiver [_dot Port] = ‛"id" : ".", "port" : «Port»’
+}

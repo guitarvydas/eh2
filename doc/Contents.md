@@ -39,10 +39,14 @@ Nothing much beyond this point, yet...
 
 --------------------
 # Episode 4 - Building the Template Dictionary - The Loader
-- converting `helloworldpy.rnet` to `helloworldpy.json`
+## Converting `helloworldpy.rnet` to `helloworldpy.json`
+
+The first step is to turn this into JSON.
 
 I choose to use JSON as the intermediate form, because I believe that JSON can be read in using just about modern language. This might provide inspiration on how to use this stuff in other ways.
 
+[The Next Goal - Convert to JSON](The%20Next%20Goal%20-%20Convert%20to%20JSON.md)
+[Remove Redundant Colons](Remove%20Redundant%20Colons.md)
 ### Begin Using A Meta-Language
 I use a meta-language to describe these next pieces of code. That way, we can generate the pieces in various languages, like Python, Javascript, Common Lisp.
 

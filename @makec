@@ -21,6 +21,7 @@ mkdir -p intermediate
     ${PBP}/del_blank_lines | tee ./intermediate/factbase.mr |\
     ${PBP}/t2t mr2swipl | tee ./intermediate/unsorted.pl | sort >./intermediate/factbase.pl
 ./fb2rnet helloworldpy ./intermediate/factbase.pl
+${PBP}/t2t rnet2json <helloworldpy.rnet > helloworldpy.json
 
 ############################
 

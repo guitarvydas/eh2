@@ -5,15 +5,15 @@
         {"template" : "Hello", "id" : "wK0F3og9NH9Dy6XDwJbj-5"}
     ],
     "wires": [
-        {"type": "down",   "sender": {"id": ".", "port": ""}, "receiver": {"id": "wK0F3og9NH9Dy6XDwJbj-5", "port": ""}},
-        {"type": "down",   "sender": {"id": ".", "port": ""}, "receiver": {"id": "wK0F3og9NH9Dy6XDwJbj-1", "port": ""}},
-        {"type": "up",     "sender": {"id": "n8kg52j3blKjJ06txv2A-24", "port": ""}, "receiver": {"id": ".", "port": ""}},
-        {"type": "up",     "sender": {"id": "n8kg52j3blKjJ06txv2A-24", "port": ""}, "receiver": {"id": ".", "port": ""}},
-        {"type": "up",     "sender": {"id": "wK0F3og9NH9Dy6XDwJbj-1",  "port": "✗"}, "receiver": {"id": ".", "port": ""}},
-        {"type": "up",     "sender": {"id": "wK0F3og9NH9Dy6XDwJbj-5",  "port": "✗"}, "receiver": {"id": ".", "port": ""}},
-        {"type": "across", "sender": {"id": "wK0F3og9NH9Dy6XDwJbj-1",  "port": ""},
+        {"dir": "down",   "sender": {"id": ".", "port": ""}, "receiver": {"id": "wK0F3og9NH9Dy6XDwJbj-5", "port": ""}},
+        {"dir": "down",   "sender": {"id": ".", "port": ""}, "receiver": {"id": "wK0F3og9NH9Dy6XDwJbj-1", "port": ""}},
+        {"dir": "up",     "sender": {"id": "n8kg52j3blKjJ06txv2A-24", "port": ""}, "receiver": {"id": ".", "port": ""}},
+        {"dir": "up",     "sender": {"id": "n8kg52j3blKjJ06txv2A-24", "port": ""}, "receiver": {"id": ".", "port": ""}},
+        {"dir": "up",     "sender": {"id": "wK0F3og9NH9Dy6XDwJbj-1",  "port": "✗"}, "receiver": {"id": ".", "port": ""}},
+        {"dir": "up",     "sender": {"id": "wK0F3og9NH9Dy6XDwJbj-5",  "port": "✗"}, "receiver": {"id": ".", "port": ""}},
+        {"dir": "across", "sender": {"id": "wK0F3og9NH9Dy6XDwJbj-1",  "port": ""},
 	 "receiver": {"id": "n8kg52j3blKjJ06txv2A-24", "port": ""}},
-        {"type": "across", "sender": {"id": "wK0F3og9NH9Dy6XDwJbj-5",  "port": ""},
+        {"dir": "across", "sender": {"id": "wK0F3og9NH9Dy6XDwJbj-5",  "port": ""},
 	 "receiver": {"id": "n8kg52j3blKjJ06txv2A-24", "port": ""}}
     ]
 }}
