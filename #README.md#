@@ -19,6 +19,7 @@ This creates `helloworldpy.rnet` from `helloworld.drawio`.
 
 The first part of this series is done.
 
+I developed a way to use multiple languages in this project.
 t2t, swipl, shell commands, @make, @makec
 
 Now, I move on to compiling `helloworldpy.rnet` into some kind of file (JSON?) that can be pulled into a loader.

@@ -1,5 +1,12 @@
 [Goal](Goal.md)
 
+# Episode 0 - Rough Drafts
+I began to rewrite the `eh` engine in a meta language, then stopped and began writing up my progress with episode 1.
+
+These rough drafts are fairly sparse and incomplete. I include them only to give a flavour of where I'm headed. Feel free to skip over these drafts and to proceed to Episode 1 .
+[Rough Draft - eh.mr](Rough%20Draft%20-%20eh.mr.md)
+[Rough Draft - notes on eh specification](Rough%20Draft%20-%20notes%20on%20eh%20specification.md)
+
 # Transmogrifying The Diagram to an Intermediate Language
 ## Episode 1
 [Step 1 - Sub-Goal](Step%201%20-%20Sub-Goal.md)
@@ -25,11 +32,28 @@
 [Normalization](Normalization.md)
 [Flattening the Grammar and Rewrite Rules](Flattening%20the%20Grammar%20and%20Rewrite%20Rules.md)
 
-# Building the Loader and Instantiator
-## Episode 4
+---
+Progress up to Feb 22, 2026.
+
+Nothing much beyond this point, yet...
+
+--------------------
+# Episode 4 - Building the Template Dictionary - The Loader
 - converting `helloworldpy.rnet` to `helloworldpy.json`
+
+I choose to use JSON as the intermediate form, because I believe that JSON can be read in using just about modern language. This might provide inspiration on how to use this stuff in other ways.
+
+### Begin Using A Meta-Language
+I use a meta-language to describe these next pieces of code. That way, we can generate the pieces in various languages, like Python, Javascript, Common Lisp.
+
+I will generate Python for now on the assumption that everybody can read it and isn't as allergic to it as Javascript or Common Lisp.
+
+During development, I continue to use /bin/bash to script builds. Bash isn't as portable as Python, but bash has a more concise syntax for scripting. I have successfully converted some bash scripts to Python using an LLM (Claude), so I know that I could regenerate all of the scripts in Python to make everything here more portable. At present bash scripts run on MacOS and on Linux, but Python versions are the preferred way to build scripts that are also usable on Windows.
+
 - loading the json to create a template dictionary of Container parts
-- loading the python Leaf node code to add to the dictionary (can Python code be hot-loaded?)
+- loading the python Leaf node code to add to the dictionary (can Python code be hot-loaded? or must we compile the code and only register function names into the dictionary?)
+
+# Building the Instantiator
 
 # Running the Generated Code
 

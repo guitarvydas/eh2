@@ -17,6 +17,14 @@ It's now up to episode 3.
 
 This creates `helloworldpy.rnet` from `helloworld.drawio`.
 
+The first part of this series is done.
+
+t2t, swipl, shell commands, @make, @makec
+
+Now, I move on to compiling `helloworldpy.rnet` into some kind of file (JSON?) that can be pulled into a loader.
+
+After loading and instantiating, we want to run the code
+
 # Usage
 `./@make`
 
