@@ -1,9 +1,0 @@
-% rewrite rnet2swipl {
-  Top [_group lb Diagram+ rb] = ‛«_group»(«Diagram»).’
-  Diagram [_diagram lb IDattr Cell+ rb] = ‛\n«_diagram»(«IDattr»«Cell»)’
-  IDattr [_id eq str] = ‛\n«_id»«eq»«str»,’
-  Cell [_cell lb Attr+ rb] = ‛\n«_cell»(«Attr»),’
-  Attr [name eq str] = ‛\n«name»«eq»«str»,’
-  str [dqL cs* dqR] = ‛«dqL»«cs»«dqR»’
-  name [letter alnum*] = ‛«letter»«alnum»’
-}
