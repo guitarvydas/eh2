@@ -1,0 +1,3 @@
+- appendix for @make, @makec for .drawio to .rnet
+- explain scoping of dynamic vars in rnet2pl
+- RWR documentation
