@@ -13,7 +13,7 @@ rnet(D,Base) :-
     atomic_list_concat(Ws,'\n    ',Wires),
     atom_concat(Base,'.rnet',F),
     tell(F),
-    format("container {\n  children: [~w]\n  wires: {\n    ~w\n  }\n}\n",[Children,Wires]),
+    format("container {\n  children [~w]\n  wires {\n    ~w\n  }\n}\n",[Children,Wires]),
     told.
 
 main :-

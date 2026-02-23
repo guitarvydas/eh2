@@ -1,0 +1,11 @@
+rnet {
+  Main = "container" "{" Children Wires "}"
+  Children = "children" "[" Part+ "]"
+  Wires = "wires" "{" Wire+ "}" 
+
+  Part = Template ID
+  Template = BracketedString
+  ID = BracketedString
+  BracketedString = "❲" (~"❳" any)+ "❳"
+  
+}
