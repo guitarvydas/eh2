@@ -6,7 +6,7 @@ I started writing the new PBP kernel in a forth-like stack language (actually on
 
 I bumped into the fact that I needed to describe how to load part templates into an in-memory database (hash table, dictionary, palette) which requires me to back up and redefine what Container parts look like. And, how to generate Container parts from diagrammatic source code. All of this is fairly straight forward in my mind, but, it takes a lot of time to write down what I'm thinking. This seems to be a kind of 'twitch' in written form.
 
-The "first episode" of this effort has been pushed to [github](). If interested, begin by looking at `Contents.md`
+The "first episode" of this effort has been pushed to [github](https://github.com/guitarvydas/eh2). If interested, begin by looking at `Contents.md`
 
 In this "episode" I grab the `helloworldpy.drawio` file and begin parsing and rewriting it using my `t2t` tools. If I pushed all of the right buttons, it should all be up on github and completely reproducible and runnable.
 

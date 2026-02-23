@@ -1,0 +1,122 @@
+While trying to debug this issue, it occurs to me that the basic problem is that the order of attributes is not guaranteed.
+
+If I could guarantee that the “id” attribute is seen before any other attribute is parsed, then a lot of code and confusion would evaporate.
+
+So, back to the beginning. Claude created a short Python program that inhales the ‘.drawio’ file and exhales it in normalized form, with ‘id’ as the first attribute in all cells.
+
+Let’s try it and have a look a the result…
+
+```
+group{
+    diagram{
+        id="o9M2tmKP6ZUbm1JD93Ax"
+        [
+            gate {
+                id="n8kg52j3blKjJ06txv2A-1"
+                parent="1"
+                value=""}
+            gate {
+                id="n8kg52j3blKjJ06txv2A-2"
+                parent="1"
+                value=""}
+            rect {
+                id="n8kg52j3blKjJ06txv2A-24"
+                parent="1"
+                value="1→2"}
+            rect {
+                id="n8kg52j3blKjJ06txv2A-25"
+                parent="n8kg52j3blKjJ06txv2A-24"
+                value="2"}
+            rect {
+                id="n8kg52j3blKjJ06txv2A-26"
+                parent="n8kg52j3blKjJ06txv2A-24"
+                value="1"}
+            rect {
+                id="n8kg52j3blKjJ06txv2A-27"
+                parent="n8kg52j3blKjJ06txv2A-24"
+                value="1"}
+            rect {
+                id="n8kg52j3blKjJ06txv2A-28"
+                parent="n8kg52j3blKjJ06txv2A-24"
+                value="2"}
+            edge {
+                id="n8kg52j3blKjJ06txv2A-29"
+                parent="1"
+                source="n8kg52j3blKjJ06txv2A-26"
+                target="n8kg52j3blKjJ06txv2A-2"}
+            edge {
+                id="n8kg52j3blKjJ06txv2A-30"
+                parent="1"
+                source="n8kg52j3blKjJ06txv2A-28"
+                target="n8kg52j3blKjJ06txv2A-2"}
+            rect {
+                id="wK0F3og9NH9Dy6XDwJbj-1"
+                parent="1"
+                value="World"}
+            rect {
+                id="wK0F3og9NH9Dy6XDwJbj-2"
+                parent="wK0F3og9NH9Dy6XDwJbj-1"
+                value=""}
+            rect {
+                id="wK0F3og9NH9Dy6XDwJbj-3"
+                parent="wK0F3og9NH9Dy6XDwJbj-1"
+                value=""}
+            rect {
+                id="wK0F3og9NH9Dy6XDwJbj-4"
+                parent="wK0F3og9NH9Dy6XDwJbj-1"
+                value="✗"}
+            rect {
+                id="wK0F3og9NH9Dy6XDwJbj-5"
+                parent="1"
+                value="Hello"}
+            rect {
+                id="wK0F3og9NH9Dy6XDwJbj-6"
+                parent="wK0F3og9NH9Dy6XDwJbj-5"
+                value=""}
+            rect {
+                id="wK0F3og9NH9Dy6XDwJbj-7"
+                parent="wK0F3og9NH9Dy6XDwJbj-5"
+                value=""}
+            rect {
+                id="wK0F3og9NH9Dy6XDwJbj-8"
+                parent="wK0F3og9NH9Dy6XDwJbj-5"
+                value="✗"}
+            edge {
+                id="wK0F3og9NH9Dy6XDwJbj-9"
+                parent="1"
+                source="n8kg52j3blKjJ06txv2A-1"
+                target="wK0F3og9NH9Dy6XDwJbj-2"}
+            edge {
+                id="wK0F3og9NH9Dy6XDwJbj-10"
+                parent="1"
+                source="n8kg52j3blKjJ06txv2A-1"
+                target="wK0F3og9NH9Dy6XDwJbj-6"}
+            edge {
+                id="wK0F3og9NH9Dy6XDwJbj-11"
+                parent="1"
+                source="wK0F3og9NH9Dy6XDwJbj-3"
+                target="n8kg52j3blKjJ06txv2A-25"}
+            edge {
+                id="wK0F3og9NH9Dy6XDwJbj-12"
+                parent="1"
+                source="wK0F3og9NH9Dy6XDwJbj-7"
+                target="n8kg52j3blKjJ06txv2A-27"}
+            gate {
+                id="wK0F3og9NH9Dy6XDwJbj-13"
+                parent="1"
+                value="✗"}
+            edge {
+                id="wK0F3og9NH9Dy6XDwJbj-14"
+                parent="1"
+                source="wK0F3og9NH9Dy6XDwJbj-4"
+                target="wK0F3og9NH9Dy6XDwJbj-13"}
+            edge {
+                id="wK0F3og9NH9Dy6XDwJbj-15"
+                parent="1"
+                source="wK0F3og9NH9Dy6XDwJbj-8"
+                target="wK0F3og9NH9Dy6XDwJbj-13"}]}}
+```
+
+It looks like `id` is always first.
+
+Now, I have to revamp the grammar to allow the rewriter to take advantage of this fact.

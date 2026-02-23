@@ -1,0 +1,3 @@
+#!/bin/bash
+#!/bin/bash
+swipl -g "[queries,generate], main, halt." -- "$1" "$2"

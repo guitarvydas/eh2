@@ -1,0 +1,27 @@
+% parameter diagramid
+% parameter cellid
+% rewrite rnet2swipl {
+  Top [_group lb Diagram+ rb] = ‛«Diagram»’
+  Diagram [_diagram lb id lb2 Cells rb2 rb] =
+    ⎡ diagramid=‛«id»’
+      ‛\ndiagram(⟪diagramid⟫).«Cells»’
+    ⎦
+
+  Cells_gate [_cell lb id Attr rb rec?] =
+    ⎡ cellid=‛«id»’
+      ‛\ngate(⟪diagramid⟫,⟪cellid⟫).«Attr»«rec»’
+    ⎦
+  Cells_rect [_cell lb id Attr rb rec?] = 
+    ⎡ cellid=‛«id»’
+      ‛\nrect(⟪diagramid⟫,⟪cellid⟫).«Attr»«rec»’
+    ⎦
+  Cells_edge [_cell lb id Attr rb rec?] =
+    ⎡ cellid=‛«id»’
+      ‛\nedge(⟪diagramid⟫,⟪cellid⟫).«Attr»«rec»’
+    ⎦
+
+  Cellid [_id eq str] = ‛«str»’
+  Attr [name eq str rec?] = ‛\n«name»(⟪diagramid⟫,⟪cellid⟫,«str»).«rec»’
+  str [dqL cs* dqR] = ‛«dqL»«cs»«dqR»’
+  name [letter alnum*] = ‛«letter»«alnum»’
+}

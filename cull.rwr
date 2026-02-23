@@ -3,8 +3,8 @@
   Diagram [_ lb attrs+ cells+ rb] = ‛\ndiagram {«attrs» «cells»}’
   Cell [_ lb attrs+ rb] = ‛\ncell {«attrs»}’
   attr_edgeStyle [name eq dq edgeLabel tail] = ‛\nkind="edge"’
-  attr_edgeLabel [name eq dq edgeLabel tail] = ‛\nkind="edgeLabel"’
-  attr_ellipse [name eq dq ellipse tail] = ‛\nkind="ellipse"’
+  attr_rhombus [name eq dq ellipse tail] = ‛\nkind="rhombus"’
+  attr_rect [name eq dq ellipse tail] = ‛\nkind="rect"’
   attr_id [name eq str] = ‛\n«name»=«str»’
   attr_parent [name eq str] = ‛\n«name»=«str»’
   attr_value [name eq str] = ‛\n«name»=«str»’

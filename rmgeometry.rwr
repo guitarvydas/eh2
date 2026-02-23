@@ -1,6 +1,7 @@
 % rewrite rmgeometry {
   Main [_begin Diagram+ _end] = ‛group {\n«Diagram»\n}’
-  Header [_begin attr+ gt] = ‛’
+  Header [xmlh?_begin attr+ gt] = ‛’
+  XMLheader [_left attrs+ _right] = ‛’
   Diagram [_begin attrs+ gt GraphModels+ _end] = ‛\ndiagram {«attrs»«GraphModels»\n}’
   GraphModel [_begin attribute+ gt Root _end] = ‛«Root»’
   Root [_begin Cells+ _end] = ‛«Cells»’

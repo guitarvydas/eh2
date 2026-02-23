@@ -2,22 +2,25 @@
 
 ######### commands specific to this project #############
 
-echo -n '1 2 3 ...'
-${PBP}/t2t rmgeometry <$1.drawio | tee /tmp/stage1.txt|\
-    ${PBP}/t2t cull |\
-    ${PBP}/t2t rmdiv |\
-    ${PBP}/t2t rmspan |\
-    ${PBP}/t2t unhtml | tee /tmp/stage5.txt
-#    ${PBP}/t2t unhtml |\
-#     ${PBP}/t2t kinds |\
-#     ${PBP}/t2t mr2json >7.json
-# echo -n '7a '
-# ${PBP}/t2t mr2pl <6.mr | python commarpar.py |\
-#     swipl -l /dev/stdin -g '[mergecode].' -g 'run.' -g 'halt.' |\
-#     ${PBP}/t2t code |\
-#     swipl -l /dev/stdin -g '[emit].' -g 'emit.' -g 'halt.' | ${PBP}/brace_indent >${fname}.sm
-echo -n 'fini '
+# ${PBP}/t2t rmgeometry <$1.drawio | tee /tmp/stage1.txt|\
+#     ${PBP}/t2t cull |\
+#     ${PBP}/t2t rmdiv |\
+#     ${PBP}/t2t rmspan |\
+#     ${PBP}/t2t unhtml |\
+#     ${PBP}/t2t rnet2swipl |\
+#     ./commas.py
 
+mkdir -p intermediate
+./id_first.py <$1.drawio |\
+    ${PBP}/t2t rmgeometry | tee ./intermediate/stage1.txt|\
+    ${PBP}/t2t cull | tee ./intermediate/stage2.txt|\
+    ${PBP}/t2t rmdiv | tee ./intermediate/stage3.txt|\
+    ${PBP}/t2t rmspan | tee ./intermediate/stage4.txt|\
+    ${PBP}/t2t unhtml | tee ./intermediate/stage5.txt|\
+    ${PBP}/t2t kinds | tee ./intermediate/stage6.txt|\
+    ${PBP}/del_blank_lines | tee ./intermediate/factbase.mr |\
+    ${PBP}/t2t rnet2swipl | sort >factbase.pl
+./fb2rnet helloworldpy factbase.pl
 
 ############################
 

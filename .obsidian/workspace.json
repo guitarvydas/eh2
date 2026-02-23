@@ -8,48 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "76dc3d0678a3e29a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Goal.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Goal"
-            }
-          },
-          {
-            "id": "486422883a39a0f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Step 1 - Sub-Goal.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Step 1 - Sub-Goal"
-            }
-          },
-          {
-            "id": "795fbd88bd0de6c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tool to Transmogrify the Diagram to .pbpcontainer Code (part 1).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tool to Transmogrify the Diagram to .pbpcontainer Code (part 1)"
-            }
-          },
-          {
             "id": "b5e910f782121e02",
             "type": "leaf",
             "state": {
@@ -64,77 +22,63 @@
             }
           },
           {
-            "id": "a042b9e44051385e",
+            "id": "011e7d34108feb29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reading rmgeometry.ohm.md",
+                "file": "episode 2/Querying The Factbase.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reading rmgeometry.ohm"
+              "title": "Querying The Factbase"
             }
           },
           {
-            "id": "27d63888e89ae2ef",
+            "id": "d846c4d96bc51d3f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reading rmgeometry.rwr.md",
+                "file": "episode 3/The Flat Factbase Option.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reading rmgeometry.rwr"
+              "title": "The Flat Factbase Option"
             }
           },
           {
-            "id": "bc1575c6b3e26d07",
+            "id": "efb04b1e8aa954e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contents.md",
+                "file": "doc/episode 1/Step 1 - Sub-Goal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contents"
+              "title": "Step 1 - Sub-Goal"
             }
           },
           {
-            "id": "7f78115128bced50",
+            "id": "91e51f4515adbeee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Contents.md",
+                "file": "prompts/rnet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contents"
-            }
-          },
-          {
-            "id": "d997d2c302f59ddf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
+              "title": "rnet"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -296,33 +240,48 @@
       "bases:Create new base": false
     }
   },
-  "active": "d997d2c302f59ddf",
+  "active": "91e51f4515adbeee",
   "lastOpenFiles": [
-    "eh-design-rules.md",
-    "Contents.md",
-    "README.md",
-    "Step 1 - Sub-Goal.md",
-    "Goal.md",
-    "Stage by Stage Whittling Down of Intermediate Results.md",
-    "Reading rmgeometry.rwr.md",
-    "temp.53898_56510.nanodsl.mjs",
-    "temp.53898_56510.grammar",
-    "temp.53898_56510.rewrite.mjs",
-    "temp.53899_38693.nanodsl.mjs",
-    "temp.53900_79487.nanodsl.mjs",
-    "temp.53896_61918.nanodsl.mjs",
-    "temp.53899_38693.grammar",
-    "temp.53900_79487.grammar",
-    "temp.53896_61918.grammar",
-    "temp.53899_38693.rewrite.mjs",
+    "temp.20890_42110.nanodsl.mjs",
+    "temp.20890_42110.grammar",
+    "temp.20890_42110.rewrite.mjs",
+    "temp.20902_99121.nanodsl.mjs",
+    "temp.20898_82886.nanodsl.mjs",
+    "temp.20902_99121.grammar",
+    "temp.20898_82886.grammar",
+    "temp.20902_99121.rewrite.mjs",
+    "temp.20898_82886.rewrite.mjs",
+    "temp.20892_13353.nanodsl.mjs",
+    "temp.20892_13353.grammar",
     "pbp/dtree/README.process_json.md",
     "pbp/dtree/README.md",
+    "Query and Output to .rnet Format.md",
+    "prompts/rnet.md",
     "pbp/dtree/DOCUMENTATION.md",
-    "pbp/api.md",
+    "doc/episode 1/Step 1 - Sub-Goal.md",
+    "doc/Contents.md",
+    "doc/episode 3/Normalization.md",
+    "doc/episode 3/The Flat Factbase Option.md",
+    "doc/episode 2/Revise rnet2swipl Rewriter.md",
+    "doc/episode 2/helloworldpy Screenshot 2026-02-22 at 6.42.04 AM.png",
+    "doc/episode 2/Querying The Factbase.md",
+    "doc/episode 2/Rewrite Cells as Edges, Rects and Rhombuses.md",
+    "doc/episode 2/Reformatting Results for SWIPL.md",
+    "doc/episode 2/rnet2swipl grammar Screenshot 2026-02-21 at 7.53.08 AM.png",
+    "doc/episode 2/Simpler Sanity Check.md",
+    "doc/episode 2/Sanity Checking the Results from Stage 5.md",
+    "doc/episode 2/commas.md",
+    "doc/episode 2/Loading Stage 5 Results Into SWIPL.md",
+    "doc/episode 1/Stage by Stage Whittling Down of Intermediate Results.md",
+    "doc/episode 2/Fix Missing Rhombus.md",
+    "doc/episode 2/Revised Results from Stages 1 and 5.md",
+    "doc/episode 2/Rnets.md",
+    "doc/Goal.md",
+    "eh-design-rules.md",
+    "README.md",
+    "doc/episode 1/Reading rmgeometry.rwr.md",
     "pbp/pbp-lifecycle.drawio.png",
-    "Reading rmgeometry.ohm.md",
-    "helloworldpy.drawio.png",
-    "helloworldpy-no-overlay-main.drawio.png",
-    "Tool to Transmogrify the Diagram to .pbpcontainer Code (part 1).md"
+    "doc/episode 1/helloworldpy.drawio.png",
+    "doc/episode 1/helloworldpy-no-overlay-main.drawio.png"
   ]
 }

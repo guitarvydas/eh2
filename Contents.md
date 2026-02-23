@@ -1,6 +1,0 @@
-[Goal](Goal.md)
-[Step 1 - Sub-Goal](Step%201%20-%20Sub-Goal.md)
-[Tool to Transmogrify the Diagram to .pbpcontainer Code (part 1)](Tool%20to%20Transmogrify%20the%20Diagram%20to%20.pbpcontainer%20Code%20(part%201).md)
-[Reading rmgeometry.ohm](Reading%20rmgeometry.ohm.md)
-[Reading rmgeometry.rwr](Reading%20rmgeometry.rwr.md)
-[Stage by Stage Whittling Down of Intermediate Results](Stage%20by%20Stage%20Whittling%20Down%20of%20Intermediate%20Results.md)
