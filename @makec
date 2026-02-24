@@ -11,7 +11,7 @@
 #     ./commas.py
 
 mkdir -p intermediate
-./id_first.py <$1.drawio |\
+./id_first.py <"$1".drawio |\
     ${PBP}/t2t rmgeometry | tee ./intermediate/stage1.txt|\
     ${PBP}/t2t cull | tee ./intermediate/stage2.txt|\
     ${PBP}/t2t rmdiv | tee ./intermediate/stage3.txt|\
@@ -20,7 +20,8 @@ mkdir -p intermediate
     ${PBP}/t2t kinds | tee ./intermediate/stage6.txt|\
     ${PBP}/del_blank_lines | tee ./intermediate/factbase.mr |\
     ${PBP}/t2t mr2swipl | tee ./intermediate/unsorted.pl | sort >./intermediate/factbase.pl
-./fb2rnet helloworldpy ./intermediate/factbase.pl
+./fb2rnet "$1" ./intermediate/factbase.pl
+${PBP}/t2t rnet2json <"$1".rnet | ./fixname.py "$1" | ./commas.py > "$1".json
 
 ############################
 

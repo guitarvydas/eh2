@@ -1,0 +1,5 @@
+rnet {
+  Main = "container" "{" Children Wires "}"
+  Children = "children" "[" Part+ "]"
+  Wires = "wires" "{" Wire+ "}" 
+}

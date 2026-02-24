@@ -38,23 +38,19 @@ Progress up to Feb 22, 2026.
 Nothing much beyond this point, yet...
 
 --------------------
-# Episode 4 - Building the Template Dictionary - The Loader
-- converting `helloworldpy.rnet` to `helloworldpy.json`
+# Episode 4 - Converting `helloworldpy.rnet` to `helloworldpy.json`
 
-I choose to use JSON as the intermediate form, because I believe that JSON can be read in using just about modern language. This might provide inspiration on how to use this stuff in other ways.
+The next step is to turn this into JSON.
 
-### Begin Using A Meta-Language
-I use a meta-language to describe these next pieces of code. That way, we can generate the pieces in various languages, like Python, Javascript, Common Lisp.
+I choose to use JSON as the intermediate form, because I believe that JSON can be read in using just about any modern language. This might provide inspiration on how to use this stuff in other ways.
 
-I will generate Python for now on the assumption that everybody can read it and isn't as allergic to it as Javascript or Common Lisp.
+[The Next Goal - Convert to JSON](The%20Next%20Goal%20-%20Convert%20to%20JSON.md)
+[Remove Redundant Colons](Remove%20Redundant%20Colons.md)
+[Convert to JSON](Convert%20to%20JSON.md)
 
-During development, I continue to use /bin/bash to script builds. Bash isn't as portable as Python, but bash has a more concise syntax for scripting. I have successfully converted some bash scripts to Python using an LLM (Claude), so I know that I could regenerate all of the scripts in Python to make everything here more portable. At present bash scripts run on MacOS and on Linux, but Python versions are the preferred way to build scripts that are also usable on Windows.
+# Episode 5 - Building the Template Dictionary - The Loader
 
-- loading the json to create a template dictionary of Container parts
-- loading the python Leaf node code to add to the dictionary (can Python code be hot-loaded? or must we compile the code and only register function names into the dictionary?)
+[Building the Template Dictionary - The Loader](Building%20the%20Template%20Dictionary%20-%20The%20Loader.md)
 
-# Building the Instantiator
-
-# Running the Generated Code
-
-
+[Building the Instantiator](Building%20the%20Instantiator.md)
+[Running the Generated Code](Running%20the%20Generated%20Code.md)

@@ -1,0 +1,21 @@
+rnet2json {
+  Main = "container" "{" Children Wires "}"
+  Children = "children" "[" PartDecl+ "]"
+  Wires = "wires" "{" Wire+ "}" 
+
+  PartDecl = Template ID
+  PartRef = Template ID
+  Template = BracketedString
+  ID = BracketedString
+  BracketedString = "❲" (~"❳" any)* "❳"
+  Wire =
+    | "down" SelfSender Receiver
+    | "across" Sender Receiver
+    | "up" Sender SelfReceiver
+    | "through" SelfSender SelfReceiver
+  Port = BracketedString
+  Sender = PartRef Port
+  Receiver = PartRef Port
+  SelfSender = "." Port
+  SelfReceiver = "." Port
+}

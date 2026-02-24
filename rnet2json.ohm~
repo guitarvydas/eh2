@@ -1,0 +1,20 @@
+rnet {
+  Main = "container" "{" Children Wires "}"
+  Children = "children" "[" Part+ "]"
+  Wires = "wires" "{" Wire+ "}" 
+
+  Part = Template ID
+  Template = BracketedString
+  ID = BracketedString
+  BracketedString = "❲" (~"❳" any)* "❳"
+  Wire =
+    | "down" SelfSender Receiver
+    | "across" Sender Receiver
+    | "up" Sender SelfReceiver
+    | "through" SelfSender SelfReceiver
+  Port = BracketedString
+  Sender = Part Port
+  Receiver = Part Port
+  SelfSender = "." Port
+  SelfReceiver = "." Port
+}

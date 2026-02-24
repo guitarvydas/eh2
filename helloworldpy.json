@@ -1,0 +1,17 @@
+{ "helloworldpy" : { 
+"children" : [
+{"template" : "1→2", "id" : "n8kg52j3blKjJ06txv2A-24"},
+{"template" : "World", "id" : "wK0F3og9NH9Dy6XDwJbj-1"},
+{"template" : "Hello", "id" : "wK0F3og9NH9Dy6XDwJbj-5"}],
+"wires" : [
+
+{"dir" : "down", "sender" : {"id" : ".", "port" : ""}, "receiver" : {"id" : "wK0F3og9NH9Dy6XDwJbj-5", "port" : ""}},
+{"dir" : "down", "sender" : {"id" : ".", "port" : ""}, "receiver" : {"id" : "wK0F3og9NH9Dy6XDwJbj-1", "port" : ""}},
+{"dir" : "up", "sender" : {"id" : "n8kg52j3blKjJ06txv2A-24", "port" : "1"}, "receiver" : {"id" : ".", "port" : ""}},
+{"dir" : "up", "sender" : {"id" : "n8kg52j3blKjJ06txv2A-24", "port" : "2"}, "receiver" : {"id" : ".", "port" : ""}},
+{"dir" : "up", "sender" : {"id" : "wK0F3og9NH9Dy6XDwJbj-1", "port" : "✗"}, "receiver" : {"id" : ".", "port" : "✗"}},
+{"dir" : "up", "sender" : {"id" : "wK0F3og9NH9Dy6XDwJbj-5", "port" : "✗"}, "receiver" : {"id" : ".", "port" : "✗"}},
+{"dir" : "across", "sender" : {"id" : "wK0F3og9NH9Dy6XDwJbj-1", "port" : ""}, "receiver" : {"id" : "n8kg52j3blKjJ06txv2A-24", "port" : "2"}},
+{"dir" : "across", "sender" : {"id" : "wK0F3og9NH9Dy6XDwJbj-5", "port" : ""}, "receiver" : {"id" : "n8kg52j3blKjJ06txv2A-24", "port" : "1"}}]}
+}
+

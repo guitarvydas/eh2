@@ -12,8 +12,10 @@ In this "episode" I grab the `helloworldpy.drawio` file and begin parsing and re
 
 Feel free to join in, comment, or whatever. This should give you the idea of how to compile diagrams to code and - eventually - how to build a PBP kernel. It should be dead simple - if it isn't then, it's my fault for not explaining something...
 
+# Overview
+![Overview](Overview.md)
 ## Update 
-It's now up to episode 3.
+I've finished episode 3 and am beginning episode 4.
 
 This creates `helloworldpy.rnet` from `helloworld.drawio`.
 

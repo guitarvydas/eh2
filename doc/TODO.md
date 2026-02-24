@@ -1,3 +1,7 @@
 - appendix for @make, @makec for .drawio to .rnet
 - explain scoping of dynamic vars in rnet2pl
 - RWR documentation
+- consider single diagram, diagrams with multiple tabs, 
+- consider Leaf parts written in Python
+- loading the json to create a template dictionary of Container parts
+- loading the python Leaf node code to add to the dictionary (can Python code be hot-loaded? or must we compile the code and only register function names into the dictionary?)
