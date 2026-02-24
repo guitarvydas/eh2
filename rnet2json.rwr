@@ -1,9 +1,9 @@
 % rewrite rnet2json {
-  Main [_container lb Children Wires rb] = ‛{ ??? : { «Children»«Wires»}\n}’
-  Children [_children lb PartDecl+ rb] = ‛\n"children" : [\n«PartDecl»],’
+  Main [_container lb Children Wires rb] = ‛{ "???" : { «Children»«Wires»}\n}’
+  Children [_children lb PartDecl+ rb] = ‛\n"children" : [«PartDecl»],’
   Wires [_wires lb Wire+ rb] =  ‛\n"wires" : [\n«Wire»]’
 
-  PartDecl [Template ID] = ‛"template" : «Template», "id" : «ID»’
+  PartDecl [Template ID] = ‛\n{"template" : «Template», "id" : «ID»},’
   PartRef [Template ID] = ‛"id" : «ID»’
   Template [s] = ‛«s»’
   ID [s] = ‛«s»’
