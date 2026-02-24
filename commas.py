@@ -1,4 +1,4 @@
 #!/usr/bin/env python
 import sys
 s = sys.stdin.read().replace(',)', ')').replace(',}', '}').replace(',]', ']')
-sys.stdout.write(s.replace("}", "\n}").replace(')', '\n)'))
+sys.stdout.write(s)

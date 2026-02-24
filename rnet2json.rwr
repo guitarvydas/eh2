@@ -1,16 +1,17 @@
 % rewrite rnet2json {
-  Main [_container lb Children Wires rb] = ‛"{" ??? : { «Children»«Wires» \n}\n}’
-  Children [_children lb Part+ rb] = ‛"children" : [\n«Part»\n],’
-  Wires [_wires lb Wire+ rb] =  ‛"wires" : [\n«Wire»\n]
+  Main [_container lb Children Wires rb] = ‛{ ??? : { «Children»«Wires»}\n}’
+  Children [_children lb PartDecl+ rb] = ‛\n"children" : [\n«PartDecl»],’
+  Wires [_wires lb Wire+ rb] =  ‛\n"wires" : [\n«Wire»]’
 
-  Part [Template ID] = ‛{"template" : «Template», "id" : «ID»},’
+  PartDecl [Template ID] = ‛"template" : «Template», "id" : «ID»’
+  PartRef [Template ID] = ‛"id" : «ID»’
   Template [s] = ‛«s»’
   ID [s] = ‛«s»’
   BracketedString [lb cs* rb] = ‛"«cs»"’
-  Wire [_direction sender receiver]] = ‛{"dir" : "«_direction»", "sender" : «sender», "receiver" : «receiver»},’
+  Wire [_direction sender receiver] = ‛\n{"dir" : "«_direction»", "sender" : «sender», "receiver" : «receiver»},’
   Port [s] = ‛«s»’
-  Sender [Part Port] = ‛"id" : «Part», "port" : «Port»’
-  Receiver [Part Port] = ‛"id" : «Part», "port" : «Port»’
-  SelfSender [_dot Port] = ‛"id" : ".", "port" : «Port»’
-  SelfReceiver [_dot Port] = ‛"id" : ".", "port" : «Port»’
+  Sender [Part Port] = ‛{«Part», "port" : «Port»}’
+  Receiver [Part Port] = ‛{«Part», "port" : «Port»}’
+  SelfSender [_dot Port] = ‛{"id" : ".", "port" : «Port»}’
+  SelfReceiver [_dot Port] = ‛{"id" : ".", "port" : «Port»}’
 }
