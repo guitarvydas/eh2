@@ -36,89 +36,21 @@
             }
           },
           {
-            "id": "d846c4d96bc51d3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "doc/episode 3/Normalization.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Normalization"
-            }
-          },
-          {
             "id": "e0c62abe89388d93",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "doc/Contents.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Contents"
-            }
-          },
-          {
-            "id": "9c0e6c24f21a042a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "doc/episode 0/Rough Draft - eh.mr.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Rough Draft - eh.mr"
-            }
-          },
-          {
-            "id": "edf17c884575a973",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "doc/Contents.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Contents"
-            }
-          },
-          {
-            "id": "ca55e0cf0c28629c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "doc/episode 2/helloworldpy Screenshot 2026-02-22 at 6.42.04 AM.png"
-              },
-              "icon": "lucide-image",
-              "title": "helloworldpy Screenshot 2026-02-22 at 6.42.04 AM"
-            }
-          },
-          {
-            "id": "978bc563a9852c65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "doc/episode 4/The Next Goal - Convert to JSON.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "The Next Goal - Convert to JSON"
+              "title": "README"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -280,39 +212,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "978bc563a9852c65",
+  "active": "e0c62abe89388d93",
   "lastOpenFiles": [
-    "temp.83390_61650.nanodsl.mjs",
-    "temp.83390_61650.grammar",
-    "temp.83390_61650.rewrite.mjs",
+    "temp.85543_66089.nanodsl.mjs",
+    "temp.85543_66089.grammar",
+    "temp.85543_66089.rewrite.mjs",
     "helloworldpy.json",
-    "temp.83090_35514.nanodsl.mjs",
-    "temp.83090_35514.grammar",
-    "temp.83090_35514.rewrite.mjs",
-    "temp.83096_65141.nanodsl.mjs",
-    "temp.83096_65141.grammar",
-    "temp.83096_65141.rewrite.mjs",
-    "temp.83094_25148.nanodsl.mjs",
+    "temp.85254_90063.nanodsl.mjs",
+    "temp.85254_90063.grammar",
+    "temp.85254_90063.rewrite.mjs",
+    "temp.85244_16606.nanodsl.mjs",
+    "temp.85244_16606.grammar",
+    "temp.85244_16606.rewrite.mjs",
+    "temp.85246_74735.nanodsl.mjs",
     "pbp/dtree/README.process_json.md",
     "pbp/dtree/README.md",
-    "pbp/dtree/DOCUMENTATION.md",
-    "doc/Contents.md",
-    "doc/episode 4/Remove Redundant Colons.md",
-    "doc/episode 4/The Next Goal - Convert to JSON.md",
-    "README.md",
-    "doc/episode 0/Overview.md",
-    "doc/episode 2/helloworldpy Screenshot 2026-02-22 at 6.42.04 AM.png",
-    "NOTE to ps descript.md",
-    "doc/episode 0/Rough Draft - eh.mr.md",
-    "doc/episode 0/Rough Draft - notes on eh specification.md",
-    "doc/Goal.md",
-    "doc/episode 3/Flattening the Grammar and Rewrite Rules.md",
-    "doc/TODO.md",
-    "doc/episode 3/Normalization.md",
-    "doc/episode 3/Considering The Flat Factbase Option.md",
     "prompts/rnet.md",
+    "doc/episode 3/Normalization.md",
+    "doc/episode 3/Flattening the Grammar and Rewrite Rules.md",
+    "doc/episode 3/Considering The Flat Factbase Option.md",
+    "doc/episode 1/helloworldpy.drawio.png",
+    "doc/episode 1/helloworldpy-no-overlay-main.drawio.png",
     "doc/episode 1/Tool to Transmogrify the Diagram to .pbpcontainer Code (part 1).md",
+    "doc/episode 1/Step 1 - Sub-Goal.md",
+    "doc/episode 1/Stage by Stage Whittling Down of Intermediate Results.md",
+    "doc/episode 1/Reading rmgeometry.rwr.md",
+    "doc/episode 1/Reading rmgeometry.ohm.md",
     "doc/episode 2/rnet2swipl grammar Screenshot 2026-02-21 at 7.53.08 AM.png",
+    "doc/episode 2/helloworldpy Screenshot 2026-02-22 at 6.42.04 AM.png",
     "doc/episode 2/commas.md",
     "doc/episode 2/Simpler Sanity Check.md",
     "doc/episode 2/Sanity Checking the Results from Stage 5.md",
@@ -320,10 +247,18 @@
     "doc/episode 2/Rewrite Cells as Edges, Rects and Rhombuses.md",
     "doc/episode 2/Revised Results from Stages 1 and 5.md",
     "doc/episode 2/Revise rnet2swipl Rewriter.md",
-    "doc/episode 1/helloworldpy.drawio.png",
-    "doc/episode 1/helloworldpy-no-overlay-main.drawio.png",
+    "doc/episode 2/Reformatting Results for SWIPL.md",
+    "doc/episode 2/Querying The Factbase.md",
+    "doc/episode 2/Loading Stage 5 Results Into SWIPL.md",
+    "doc/episode 2/Fix Missing Rhombus.md",
+    "doc/episode 4/The Next Goal - Convert to JSON.md",
+    "doc/episode 4/Remove Redundant Colons.md",
+    "doc/episode 0/Rough Draft - notes on eh specification.md",
     "helloworldpy.drawio.png",
     "helloworldpy-no-overlay-main.drawio.png",
-    "pbp/pbp-lifecycle.drawio.png"
+    "episode 2/rnet2swipl grammar Screenshot 2026-02-21 at 7.53.08 AM.png",
+    "episode 2/helloworldpy Screenshot 2026-02-22 at 6.42.04 AM.png",
+    "episode 1/helloworldpy.drawio.png",
+    "episode 1/helloworldpy-no-overlay-main.drawio.png"
   ]
 }

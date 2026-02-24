@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+import sys
+
+template = sys.stdin.read()
+print(template.replace('???', sys.argv[1]))
